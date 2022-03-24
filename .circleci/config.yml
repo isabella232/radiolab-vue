@@ -57,7 +57,7 @@ jobs:
       - run: 
           name: Assert that it builds
           command: |
-            ls
+            ls -a
             npm ci
             npm run build
 
